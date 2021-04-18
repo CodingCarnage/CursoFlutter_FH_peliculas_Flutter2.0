@@ -83,7 +83,7 @@ class PeliculaDetalle extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-                Text(pelicula.title, style: Theme.of(context).textTheme.headline6, overflow: TextOverflow.ellipsis ),
+                Text(pelicula.title, style: Theme.of(context).textTheme.headline4, overflow: TextOverflow.clip ),
                 Text(pelicula.originalTitle, style: Theme.of(context).textTheme.subtitle1, overflow: TextOverflow.ellipsis ),
                 Row(
                   children: <Widget>[
